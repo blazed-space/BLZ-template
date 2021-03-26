@@ -1,13 +1,13 @@
 <?php
 /**
- * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
+ * BLZ-BLD is an awesome Fuel framework!
  *
- * @package    Fuel
- * @version    1.8.2
- * @author     Fuel Development Team
+ * @package    BLZ-BLD
+ * @version    2.0.0
+ * @author     Blazed Labs LLC
  * @license    MIT License
- * @copyright  2010 - 2019 Fuel Development Team
- * @link       https://fuelphp.com
+ * @copyright  2020 - 2021 Blazed Labs LLC
+ * @link       https://github.com/blazed-space/Blz-BLD/
  */
 
 /**
