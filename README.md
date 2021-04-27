@@ -10,11 +10,13 @@ The bare bones template for BLZ-BLD views.
 2. If a database is used, update it's credentials in /app/config/development/db.php and/or /app/config/production/db.php
 3. Edit the SITE global in /public_html/index.php
 
-# Install Dependancies 
-* You will need to install Fuel, use Composer, or goto: https://fuelphp.com/
-* Use Composer to require Bundle FU, **composer require dotsunited/bundlefu**
-* Once you have FuelPHP installed, change the COREPATH, PKGPATH, and VENDORPATH in /public_html/index.php to correspond with your installation location of Fuel.
-* Set VENDORPATH to be the same location where Bundle FU is installed
+# To Develop locally
+1. Run npm install
+2. Run npm run dev
+
+# To Deploy
+1. Install Fuel to /var/www/common/
+2. Run npm run deploy
 
 # Support
 * For Help: support@blazed.work
