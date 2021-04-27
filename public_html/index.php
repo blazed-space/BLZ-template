@@ -31,7 +31,6 @@ ini_set('display_errors', 1);
 
 /* Blazed Variables */
 define('VERSION', '3.3.0'); 
-define('SITE', 'blazedlabs.com');
 /**
  * -----------------------------------------------------------------------------
  *  Define constants
@@ -44,7 +43,7 @@ define('SITE', 'blazedlabs.com');
  * -----------------------------------------------------------------------------
  */
 
-define('DOCROOT', __DIR__.DIRECTORY_SEPARATOR);
+define('DOCROOT', __DIR__);
 
 
 /**
@@ -53,7 +52,7 @@ define('DOCROOT', __DIR__.DIRECTORY_SEPARATOR);
  * -----------------------------------------------------------------------------
  */
 
-define('APPPATH', realpath(DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR  . 'www' . DIRECTORY_SEPARATOR . SITE . DIRECTORY_SEPARATOR  . 'app').DIRECTORY_SEPARATOR);
+define('APPPATH', realpath(__DIR__.'/../app').DIRECTORY_SEPARATOR);
 
 /**
  * -----------------------------------------------------------------------------
@@ -61,21 +60,19 @@ define('APPPATH', realpath(DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR  . 
  * -----------------------------------------------------------------------------
  */
 
-define('PKGPATH', realpath(DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR  . 'www' .  DIRECTORY_SEPARATOR . 'common' . DIRECTORY_SEPARATOR . 'fuel' . DIRECTORY_SEPARATOR  . DIRECTORY_SEPARATOR  . 'packages').DIRECTORY_SEPARATOR);
-
+define('PKGPATH', realpath(__DIR__.'/../fuel/packages').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  The path to the framework core
  * -----------------------------------------------------------------------------
  */
-
-define('COREPATH', realpath(DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR  . 'www' . DIRECTORY_SEPARATOR . 'common' . DIRECTORY_SEPARATOR . 'fuel' . DIRECTORY_SEPARATOR  . 'core').DIRECTORY_SEPARATOR);
+define('COREPATH', realpath(__DIR__.'/../fuel/core').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  The path to the Composer Dependencies
  * -----------------------------------------------------------------------------
  */
-define('VENDORPATH', realpath(DIRECTORY_SEPARATOR . 'var' . DIRECTORY_SEPARATOR  . 'www' . DIRECTORY_SEPARATOR . 'common' . DIRECTORY_SEPARATOR . 'fuel' . DIRECTORY_SEPARATOR  . 'core' . DIRECTORY_SEPARATOR . 'vendor').DIRECTORY_SEPARATOR);
+define('VENDORPATH', realpath(__DIR__.'/../fuel/vendor').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  Profiling
