@@ -14,6 +14,8 @@ The bare bones template for BLZ-BLD views.
 1. Run npm install
 2. Run npm run dev
 
+This will run a development instance on localhost:8000
+
 # To Deploy
 1. Install Fuel to /var/www/common/
 2. Run npm run deploy
