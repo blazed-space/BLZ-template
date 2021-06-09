@@ -1,24 +1,39 @@
 # BLZ-template
-The bare bones template for BLZ-BLD views. 
+The bare bones template for ICE websites.
 
-# What's in it
-* FuelPHP framework
-* BundleFU
+## Dependencies
+* PHP
+* Composer
+  * Fuel (fuel/core)
+  * BundleFU (dotsunited/bundlefu)
+  * Commonmark (league/commonmark)
 
-# Setup
-1. Edit /app/config/misc.php & /app/config/development/config.php & /app/config/production/config.php
-2. If a database is used, update it's credentials in /app/config/development/db.php and/or /app/config/production/db.php
-3. Edit the SITE global in /public_html/index.php
+## Installing
 
-# To Develop locally
-1. Run npm install
-2. Run npm run dev
+- If you already have a FuelPHP install, you may place the /ice/ package in the package path.
+  Make sure you add the Bundle-FU and PHP Commonmark dependencies
+  ```shell
+  composer require dotsunited/bundlefu
+  composer require league/commonmark
+  ```
 
-This will run a development instance on localhost:8000
+## Repo Information
 
-# To Deploy
-1. Install Fuel to /var/www/common/
-2. Run npm run deploy
+### Versioning
+We use [SemVer](https://semver.org/) for versioning.
 
-# Support
-* For Help: support@blazed.work
+### License
+This project is licensed under the MIT License - see the LICENSE file for details
+
+### Support
+Having problems? We want to hear about it! Please navigate to the "Issues" tab of this repo, and fill out an issue request, outlining your issue (if you cannot find one already filed).
+
+### Contributing
+**We are currently only accepting bug fixes and issues on this repo **
+
+If you would like to submit a contribution, please follow the guidelines outlined in the CONTRIBUTING.md file in this repo.
+
+## Acknowledgments
+
+1. Blazed Labs LLC - Tyler Ruff (Lead Developer)
+

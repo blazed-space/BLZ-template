@@ -60,19 +60,19 @@ define('APPPATH', realpath(__DIR__.'/../app').DIRECTORY_SEPARATOR);
  * -----------------------------------------------------------------------------
  */
 
-define('PKGPATH', realpath(__DIR__.'/../fuel/packages').DIRECTORY_SEPARATOR);
+define('PKGPATH', realpath(__DIR__.'/../../fuel/packages').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  The path to the framework core
  * -----------------------------------------------------------------------------
  */
-define('COREPATH', realpath(__DIR__.'/../fuel/core').DIRECTORY_SEPARATOR);
+define('COREPATH', realpath(__DIR__.'/../../fuel/core').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  The path to the Composer Dependencies
  * -----------------------------------------------------------------------------
  */
-define('VENDORPATH', realpath(__DIR__.'/../fuel/vendor').DIRECTORY_SEPARATOR);
+define('VENDORPATH', realpath(__DIR__.'/../../fuel/vendor').DIRECTORY_SEPARATOR);
 /**
  * -----------------------------------------------------------------------------
  *  Profiling

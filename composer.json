@@ -14,6 +14,7 @@
         "fuel/orm": "1.8.*",
         "fuel/parser": "1.8.*",
         "fuelphp/upload": "2.0.6",
+        "league/commonmark": "^1.6",
         "dotsunited/bundlefu": "^1.0"
     },
     "require-dev": {
