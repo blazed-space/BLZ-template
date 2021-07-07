@@ -1,0 +1,22 @@
+{
+  "name": "blz-template",
+  "version": "1.0.0",
+  "description": "The bare bones template for FUELPHP websites.",
+  "main": "public_html/index.php",
+  "scripts": {
+    "install": "composer install",
+    "dev": "cd public_html && php -S localhost:8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazed-space/BLZ-template.git"
+  },
+  "author": "blazed-space",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blazed-space/BLZ-template/issues"
+  },
+  "homepage": "https://github.com/blazed-space/BLZ-template#readme"
+}
+

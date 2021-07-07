@@ -1,37 +1,42 @@
 # BLZ-template
-The bare bones template for ICE websites.
+The bare bones template for FUELPHP websites.
 
 ## Dependencies
 * PHP
 * Composer
   * Fuel (fuel/core)
   * BundleFU (dotsunited/bundlefu)
-  * Commonmark (league/commonmark)
+  * Ice (blazed-labs/ice)
 
-## Installing
+## Running Locally
 
-- If you already have a FuelPHP install, you may place the /ice/ package in the package path.
-  Make sure you add the Bundle-FU and PHP Commonmark dependencies
+  To install run,
+
   ```shell
-  composer require dotsunited/bundlefu
-  composer require league/commonmark
+  npm run install
   ```
 
-## Repo Information
+  To run a simple development server, simply run:
+
+  ```shell
+  npm run dev
+  ```
+
+# Repo Information
+
+![GitHub last commit](https://img.shields.io/github/last-commit/blazed-space/BLZ-template) [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://blazed.city/)
 
 ### Versioning
 We use [SemVer](https://semver.org/) for versioning.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ### Support
 Having problems? We want to hear about it! Please navigate to the "Issues" tab of this repo, and fill out an issue request, outlining your issue (if you cannot find one already filed).
 
 ### Contributing
-**We are currently only accepting bug fixes and issues on this repo **
-
-If you would like to submit a contribution, please follow the guidelines outlined in the CONTRIBUTING.md file in this repo.
+If you would like to submit a bugfix, please follow the guidelines outlined in the CONTRIBUTING.md file in this repo.
 
 ## Acknowledgments
 
