@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4172aa28ef6776b239401b3ff4daea5",
+    "content-hash": "9ce676d87be12180e26b7a210b8f9d8b",
     "packages": [
+        {
+            "name": "blazed-labs/ice",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blazed-space/ice.git",
+                "reference": "54d065a7ee608fffe8408fe5ffeba35aadda050f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blazed-space/ice/zipball/54d065a7ee608fffe8408fe5ffeba35aadda050f",
+                "reference": "54d065a7ee608fffe8408fe5ffeba35aadda050f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "This package constitutes the main utilities for most Blazed websites.",
+            "support": {
+                "issues": "https://github.com/blazed-space/ice/issues",
+                "source": "https://github.com/blazed-space/ice/tree/1.0.0"
+            },
+            "time": "2021-07-08T01:43:08+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.10.0",
@@ -963,5 +989,5 @@
         "php": ">=5.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

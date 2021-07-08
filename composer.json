@@ -15,7 +15,7 @@
         "fuel/parser": "1.8.*",
         "fuelphp/upload": "2.0.6",
         "dotsunited/bundlefu": "^1.0",
-        "blazed-labs/ice": "dev-main"
+        "blazed-labs/ice": "^1.0"
     },
     "require-dev": {
         "fuel/docs": "1.8.*"

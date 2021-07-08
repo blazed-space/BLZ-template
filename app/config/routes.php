@@ -17,12 +17,8 @@ return array(
 	 * -------------------------------------------------------------------------
 	 *
 	 */
-	'_root_' => 'base/index/oo',
-	'index/(:any)' => 'base/index/$1',
-	'portfolio' => 'base/port/0',
-	'portfolio/(:num)' => 'base/port/$1',
-	'contact' => 'base/contact',
-	'gopush' => 'base/push',
+	'_root_' => 'base/index',
+	'push' => 'base/push',
 	/**
 	 * -------------------------------------------------------------------------
 	 *  Page not found
