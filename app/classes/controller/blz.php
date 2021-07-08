@@ -2,10 +2,10 @@
 
 class Controller_Blz extends Controller{
     public function before(){
-        $bundle_name = Util_Url::base64url_encode($this->page);
+        $bundle_name = \ice\Util_Url::base64url_encode(1);
 		//Define filters to minify CSS files when bundled
 		$css_filter = new \DotsUnited\BundleFu\Filter\CallbackFilter(function($content) {
-				return Util_Mini::css($content);
+				return \ice\Util_Mini::css($content);
 			}
 		);
 		$options = array(
@@ -20,4 +20,3 @@ class Controller_Blz extends Controller{
 		$this->bundle = new \DotsUnited\BundleFu\Bundle($options);
     }
 }
-
