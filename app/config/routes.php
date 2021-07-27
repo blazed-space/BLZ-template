@@ -18,7 +18,11 @@ return array(
 	 *
 	 */
 	'_root_' => 'base/index',
-	'push' => 'base/push',
+	
+	// REST API
+	'api/v1-0/GET/(:any)/(:any)' => 'api/get/$1/$2',
+	'api/v1-0/POST/(:any)' => 'api/post/$1',
+	
 	/**
 	 * -------------------------------------------------------------------------
 	 *  Page not found

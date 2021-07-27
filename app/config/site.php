@@ -1,11 +1,28 @@
 <?php
 
 	return array(
-		'company_name' => 'Blazed Labs LLC',
-		'site_name' => 'Blazed Labs LLC (Work Site)',
-		'site_color' => '#ffffff',
-		'site_logo' => 'https://blazed.space/assets/img/blz_logo.jpg',
-		'site_desc' => 'Blazed Labs LLC Main Website.',
-		'site_short' => 'blz-labs',
-		'contact_email' => 'hello@blazed.space',
+		'site_name' => 'Awesome Fuel Boilerplate',
+		
+		'meta' => array(
+			'contact_email' => 'hello@blazed.space',
+			'default_desc' => 'This is a simple FuelPHP boilerplate from Blazed Labs. ',
+			'site_color' => '#ffffff',
+		),
+		/*
+		'fb' => array(
+			'app_id' => '',
+			'api_version' => ''
+		),
+		'google' => array(
+			'verification' => '',
+			'rc' => array(
+				'site_key' => '',
+				'secret' => '',
+			),
+			'oauth' => array(
+				'client_id' => '',
+				'client_secret' => ''
+			),
+		),
+		*/
 	);

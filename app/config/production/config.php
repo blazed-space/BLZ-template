@@ -19,6 +19,6 @@ return array(
 		 *  Salt to make sure the generated security tokens aren't predictable.
 		 * ---------------------------------------------------------------------
 		 */
-		 'token_salt' => '[ENTER TOKEN SALT HERE]',
+		 'token_salt' => base64_encode(random_bytes(30)),
 	),
 );

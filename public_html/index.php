@@ -28,9 +28,6 @@
 
 error_reporting(-1);
 ini_set('display_errors', 1);
-
-/* Blazed Variables */
-define('VERSION', '3.3.0'); 
 /**
  * -----------------------------------------------------------------------------
  *  Define constants

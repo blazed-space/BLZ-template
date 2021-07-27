@@ -11,7 +11,7 @@
  */
 
 return array(
-	'base_url' => '[ENTER URL HERE]',
+	'base_url' => 'http://localhost:8000/',
 	
 	'security' => array(
 		/**
@@ -19,6 +19,6 @@ return array(
 		 *  Salt to make sure the generated security tokens aren't predictable.
 		 * ---------------------------------------------------------------------
 		 */
-		 'token_salt' => '[ENTER TOKEN SALT HERE]',
+		 'token_salt' => base64_encode(random_bytes(30)),
 	),
 );
